@@ -9,6 +9,7 @@ console.log(new Date)
 
 const displayDate = () => {
   const currentDate = new Date()
+  currentDate.getDay();
 
   document.getElementById("display-element").innerHTML = currentDate;
 }
